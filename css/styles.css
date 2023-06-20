@@ -26,6 +26,33 @@ body {
 
 /**
   |============================
+  | Reset
+  |============================
+*/
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1158px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/**
+  |============================
   | Header style
   |============================
 */
@@ -39,10 +66,36 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-right: 76px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-ul {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header-address {
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .logo-studio {
   color: var(--hero-background-color);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 
 .list {
@@ -103,6 +156,8 @@ body {
   cursor: pointer;
 }
 
+.hero-container {
+}
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state-color);
