@@ -1,0 +1,252 @@
+/**
+  |============================
+  | Common styles
+  |============================
+*/
+:root {
+  --branded-color: #434455;
+  --brand-color: #ffffff;
+  --primary-brand-color: #4d5ae5;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --success-color: #31d0aa;
+  --subtle-text-color: #8e8f99;
+  --accent-color: #e7e9fc;
+  --light-cloud-color: #f4f4fd;
+  --hero-background-color: #2e2f42;
+  --modal-background-color: #fcfcfc;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  color: #434455;
+  background-color: #ffffff;
+}
+
+/**
+  |============================
+  | Header style
+  |============================
+*/
+
+.header-logo {
+  color: var(--primary-brand-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo-studio {
+  color: var(--hero-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.header-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--hero-background-color);
+  text-decoration: none;
+}
+
+.header-studio:hover,
+.header-studio:focus {
+  color: var(--pressed-state-color);
+}
+
+.address-link {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--branded-color);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--pressed-state-color);
+}
+
+.address {
+  font-style: normal;
+}
+
+/**
+  |============================
+  | Main styles
+  |============================
+*/
+
+.hero-font {
+  color: var(--brand-color);
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.hero-button {
+  color: var(--brand-color);
+  background-color: var(--primary-brand-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state-color);
+}
+
+.hero-background {
+  background-color: var(--hero-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.sectionn-list {
+  color: var(--hero-background-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.textt-list {
+  color: var(--branded-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.section-tittle {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--hero-background-color);
+  text-decoration: none;
+}
+
+.name-list {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--hero-background-color);
+}
+
+.posission-list {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--branded-color);
+}
+
+.backteam {
+  background-color: var(--light-cloud-color);
+}
+
+.backteam-list {
+  background-color: var(--brand-color);
+}
+
+/**
+  |============================
+  | Footer styles
+  |============================
+*/
+
+.footer-logo {
+  color: var(--primary-brand-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--light-cloud-color);
+}
+
+.footer-background {
+  background-color: var(--hero-background-color);
+}
+
+.footer-studio {
+  color: var(--light-cloud-color);
+}
+
+/**
+  |============================
+  | Portfolio-styles
+  |============================
+*/
+
+.all-list {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand-color);
+  background-color: var(--light-cloud-color);
+  cursor: pointer;
+}
+
+.all-list:hover,
+.all-list:focus {
+  color: var(--brand-color);
+  background-color: var(--pressed-state-color);
+}
+
+.section-maintext {
+  color: var(--hero-background-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.section-text {
+  color: var(--branded-color);
+  font-size: 16px;
+  line-height: 1.5;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.not-visible {
+  visibility: hidden;
+}
+
+.list {
+  list-style: none;
+}
+
+.port-backphoto {
+  background-color: var(--brand-color);
+}
+
+.link {
+  text-decoration: none;
+}
