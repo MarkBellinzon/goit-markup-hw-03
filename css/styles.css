@@ -72,9 +72,7 @@ ol {
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  margin-left: auto;
 }
 
 .header-ul {
@@ -131,6 +129,7 @@ ol {
 
 .address {
   font-style: normal;
+  margin-left: auto;
 }
 
 /**
