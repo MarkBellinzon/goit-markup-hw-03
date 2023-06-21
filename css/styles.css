@@ -84,8 +84,7 @@ ol {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
 
 .header-address {
@@ -183,9 +182,6 @@ ol {
   background-color: var(--pressed-state-color);
 }
 
-.strategy-container {
-}
-
 .strategy-cont {
   display: flex;
   gap: 24px;
@@ -200,11 +196,14 @@ ol {
   background-color: var(--light-cloud-color);
   width: 1440px;
   height: 732px;
+  padding: 120px 0;
 }
 
 .doing-cont {
   display: flex;
   gap: 24px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-cont {
@@ -241,8 +240,7 @@ ol {
   text-transform: capitalize;
   color: var(--hero-background-color);
   text-decoration: none;
-
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .name-list {
@@ -251,6 +249,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--hero-background-color);
+  margin-bottom: 8px;
 }
 
 .posission-list {
@@ -303,7 +302,8 @@ ol {
   width: 1440px;
   height: 312px;
   background-color: var(--hero-background-color);
-  padding: 100px 1020px 100px 156px;
+  padding: 100px 0;
+  padding-left: 156px;
 }
 
 .footer-text {
@@ -323,6 +323,11 @@ ol {
   | Portfolio-styles
   |============================
 */
+
+.mainclass {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 
 .all-list {
   font-weight: 500;
@@ -362,7 +367,6 @@ ol {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
   text-align: left;
 }
 
@@ -373,6 +377,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-decoration: none;
+  margin-bottom: 8px;
 }
 
 .section-text {
