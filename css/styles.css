@@ -142,9 +142,10 @@ ol {
   color: var(--brand-color);
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
   letter-spacing: 0.02em;
+  padding-bottom: 48px;
 }
+
 .hero-button {
   color: var(--brand-color);
   background-color: var(--primary-brand-color);
@@ -156,17 +157,47 @@ ol {
 }
 
 .hero-container {
+  background-color: var(--hero-background-color);
+  width: 1440px;
+  height: 600px;
+  margin-bottom: 92px;
+  text-align: center;
+  padding: 188px 472px 292px;
 }
+
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state-color);
 }
 
-.hero-background {
-  background-color: var(--hero-background-color);
+.strategy-container {
+  margin-bottom: 120px;
 }
 
-.list {
+.strategy-cont {
+  display: flex;
+  gap: 24px;
+}
+
+.doing-container {
+  margin-bottom: 120px;
+}
+
+.team-container {
+  background-color: var(--light-cloud-color);
+}
+
+.doing-cont {
+  display: flex;
+  gap: 24px;
+}
+
+.team-cont {
+  display: flex;
+  gap: 24px;
+}
+
+. .list {
   list-style: none;
 }
 
@@ -210,10 +241,6 @@ ol {
   color: var(--branded-color);
 }
 
-.backteam {
-  background-color: var(--light-cloud-color);
-}
-
 .backteam-list {
   background-color: var(--brand-color);
 }
@@ -233,6 +260,14 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
+  margin-bottom: 16px;
+}
+
+.footer-container {
+  width: 1440px;
+  height: 312px;
+  background-color: var(--hero-background-color);
+  padding: 100px 1020px 100px 156px;
 }
 
 .footer-text {
@@ -240,10 +275,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--light-cloud-color);
-}
-
-.footer-background {
-  background-color: var(--hero-background-color);
+  width: 264px;
 }
 
 .footer-studio {
@@ -270,6 +302,20 @@ ol {
 .all-list:focus {
   color: var(--brand-color);
   background-color: var(--pressed-state-color);
+}
+.menu-list {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 72px;
+  justify-content: center;
+}
+
+.photo-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
 }
 
 .section-maintext {
