@@ -185,11 +185,16 @@ ol {
 .strategy-cont {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .doing-container {
   padding-bottom: 120px;
+}
+
+.section-second {
+  padding: 120px 0;
 }
 
 .team-container {
@@ -202,8 +207,7 @@ ol {
 .doing-cont {
   display: flex;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 48px) / 3);
 }
 
 .team-cont {
@@ -223,6 +227,7 @@ ol {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .textt-list {
   color: var(--branded-color);
@@ -241,6 +246,10 @@ ol {
   color: var(--hero-background-color);
   text-decoration: none;
   margin-bottom: 72px;
+}
+
+.section-third {
+  padding-bottom: 120px;
 }
 
 .name-list {
