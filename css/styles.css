@@ -184,22 +184,22 @@ ol {
 }
 
 .strategy-container {
-  margin-bottom: 120px;
 }
 
 .strategy-cont {
   display: flex;
   gap: 24px;
-  padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .doing-container {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 
 .team-container {
   background-color: var(--light-cloud-color);
+  width: 1440px;
+  height: 732px;
 }
 
 .doing-cont {
@@ -210,9 +210,11 @@ ol {
 .team-cont {
   display: flex;
   gap: 24px;
+  justify-content: center;
+  padding-bottom: 120px;
 }
 
-. .list {
+.list {
   list-style: none;
 }
 
@@ -239,6 +241,8 @@ ol {
   text-transform: capitalize;
   color: var(--hero-background-color);
   text-decoration: none;
+
+  padding-bottom: 72px;
 }
 
 .name-list {
@@ -270,6 +274,10 @@ ol {
   padding: 32px 16px;
   text-align: center;
   margin-bottom: 8px;
+}
+
+.block-list {
+  display: block;
 }
 
 /**
