@@ -67,11 +67,11 @@ ol {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .header {
   border-bottom: 1px solid var(--accent-color);
-  margin-bottom: 24px;
 }
 
 .header-container {
@@ -84,7 +84,6 @@ ol {
   display: flex;
   align-items: center;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header-address {
@@ -113,6 +112,7 @@ ol {
   letter-spacing: 0.02em;
   color: var(--hero-background-color);
   text-decoration: none;
+  padding: 24px 0;
 }
 
 .header-studio:hover,
@@ -182,9 +182,11 @@ ol {
   background-color: var(--pressed-state-color);
 }
 
-.strategy-cont {
+.line-cont {
   display: flex;
   gap: 24px;
+}
+.strategy-cont {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -197,17 +199,9 @@ ol {
   padding: 120px 0;
 }
 
-.team-container {
-  background-color: var(--light-cloud-color);
-  width: 1440px;
-  height: 732px;
-  padding: 120px 0;
-}
-
 .doing-cont {
   display: flex;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
 }
 
 .team-cont {
@@ -215,6 +209,15 @@ ol {
   gap: 24px;
   justify-content: center;
   padding-bottom: 120px;
+}
+
+.block-width {
+  width: calc((100% - 48px) / 3);
+}
+
+.backteam {
+  padding: 120px 0;
+  background-color: var(--light-cloud-color);
 }
 
 .list {
@@ -273,10 +276,17 @@ ol {
 }
 
 .visually-hidden {
-  visibility: hidden;
-  margin-bottom: 8px;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-
 .name-position {
   border-radius: 0px 0px 4px 4px;
   padding: 32px 16px;
@@ -307,12 +317,10 @@ ol {
   display: inline-block;
 }
 
-.footer-container {
-  width: 1440px;
-  height: 312px;
+.footer-background {
   background-color: var(--hero-background-color);
-  padding: 100px 0;
-  padding-left: 156px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-text {
@@ -374,7 +382,6 @@ ol {
 
 .head-name {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
   border-top: none;
   text-align: left;
 }
