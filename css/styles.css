@@ -372,6 +372,10 @@ ol {
 }
 
 .menu-container {
+}
+
+.block-list {
+  width: calc((100% - 48px) / 3);
   border: 1px solid #e7e9fc;
 }
 
@@ -420,8 +424,6 @@ ol {
 
 .port-backphoto {
   background-color: var(--brand-color);
-  width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
 }
 
 .link {
