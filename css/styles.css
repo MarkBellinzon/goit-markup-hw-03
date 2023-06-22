@@ -32,7 +32,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+p {
   margin: 0;
 }
 
@@ -67,7 +68,6 @@ ol {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
-  padding: 24px 0;
 }
 
 .header {
@@ -78,7 +78,6 @@ ol {
   display: flex;
   align-items: center;
   margin-left: auto;
-  padding-bottom: 24px;
 }
 
 .header-ul {
@@ -114,6 +113,7 @@ ol {
   color: var(--hero-background-color);
   text-decoration: none;
   padding: 24px 0;
+  display: block;
 }
 
 .header-studio:hover,
@@ -150,8 +150,9 @@ ol {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  padding-bottom: 48px;
+  margin: 0px auto 48px auto;
   max-width: 496px;
+  text-align: center;
 }
 
 .hero-button {
@@ -167,17 +168,13 @@ ol {
   height: 56px;
   border: none;
   border-radius: 4px;
-}
-
-.hero-container {
-  background-color: var(--hero-background-color);
-  width: 1440px;
-  height: 600px;
-  margin-bottom: 92px;
-  text-align: center;
+  margin: 0px auto;
+  padding: 16px 32px;
 }
 
 .hero-background {
+  background-color: var(--hero-background-color);
+  padding: 188px 0;
 }
 
 .hero-button:hover,
@@ -188,19 +185,12 @@ ol {
 .line-cont {
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 
 .strategy-cont {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
-}
-
-.doing-container {
-  padding-bottom: 120px;
-}
-
-.section-second {
 }
 
 .doing-cont {
@@ -212,7 +202,6 @@ ol {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-bottom: 120px;
 }
 
 .block-width {
@@ -234,7 +223,7 @@ ol {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-bottom: 8px;
+  margin: 0 0 8px;
 }
 .textt-list {
   color: var(--branded-color);
@@ -295,7 +284,6 @@ ol {
 .name-position {
   padding: 32px 16px;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 .block-list {
